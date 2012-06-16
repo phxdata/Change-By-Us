@@ -894,6 +894,7 @@ CREATE TABLE `unauthenticated_user` (
   `phone` varchar(10) DEFAULT NULL,
   `first_name` varchar(50) DEFAULT NULL,
   `last_name` varchar(50) DEFAULT NULL,
+  `redirect_link` VARCHAR( 255 ),
   `created_datetime` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   PRIMARY KEY (`auth_guid`)
 ) ENGINE=MyISAM;
