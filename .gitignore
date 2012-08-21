@@ -10,7 +10,7 @@ data/*
 naturaldocs
 
 # Custom files
-static/files/*
+#static/files/*
 !static/files/README.txt
 
 # Import files
