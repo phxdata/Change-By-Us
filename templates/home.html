@@ -311,7 +311,7 @@
         {% if d.config.features.is_community_leaders_displayed %}
           <div class="box box-whoslistening">
               <h1><strong>{{ _('Who&#39;s listening?') }}</strong></h1>
-              <h2>{{ _('A network of city leaders is ready to hear your <a href="/search#ideas">ideas</a> and provide guidance for your <a href="/search#projects">projects</a>.') }}</h2>
+              <h2>{{ _('A network of community leaders is ready to hear your <a href="/search#ideas">ideas</a> and provide guidance for your <a href="/search#projects">projects</a>.') }}</h2>
               <ul class="clearfix">
                 {% for community_leader in d.template_data.community_leaders %}
                   <li {% if loop.index % 4 == 0 %}class="every-fourth"{% endif %}>
